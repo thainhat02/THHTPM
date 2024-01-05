@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSSV xmlns="http://tempuri.org/DSSV.xsd">
+	<Student>
+		<MaSV>01234567</MaSV>
+		<HoTen>Cao Đức Nhật</HoTen>
+		<NgaySinh>2023-09-01</NgaySinh>
+		<Lop>CNTT-01</Lop>
+		<MonHoc TenMH="Toán">
+			<Lan1>5</Lan1>
+			<Lan2>6</Lan2>
+			<CaNam>8</CaNam>
+		</MonHoc>
+		<MonHoc TenMH="Văn">
+			<Lan1>7</Lan1>
+			<Lan2>8</Lan2>
+			<CaNam>4</CaNam>
+		</MonHoc>
+		<MonHoc TenMH="Ngoại Ngữ">
+			<Lan1>3</Lan1>
+			<Lan2>5</Lan2>
+			<CaNam>5</CaNam>
+		</MonHoc>
+		<MonHoc TenMH="Sử">
+			<Lan1>2</Lan1>
+			<Lan2>5</Lan2>
+			<CaNam>3</CaNam>
+		</MonHoc>
+		<MonHoc TenMH="TongKet">
+			<Lan1>6</Lan1>
+			<Lan2>7</Lan2>
+			<CaNam>7</CaNam>
+		</MonHoc>
+		<HocLuc>Trung Bình</HocLuc>
+		<HanhKiem>Khá</HanhKiem>
+		<GVCN>Trần Mai Linh</GVCN>
+	</Student>
+</DSSV>

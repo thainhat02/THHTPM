@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="HoaDon.xslt"?>
+<HoaDon MaHD="HD1">
+	<LoaiHang TenLoai="Điện tử">
+		<MaLoai>DT</MaLoai>
+		<Hang MaHang="H1">
+			<TenHang>Ti vi</TenHang>
+			<SoLuong>150</SoLuong>
+			<DonViTinh>chiếc</DonViTinh>
+			<DonGia>150000</DonGia>
+		</Hang>
+		<Hang MaHang="H2">
+			<TenHang>Tủ lạnh</TenHang>
+			<SoLuong>210</SoLuong>
+			<DonViTinh>chiếc</DonViTinh>
+			<DonGia>300000</DonGia>
+		</Hang>
+		<Hang MaHang="H3">
+			<TenHang>Laptop</TenHang>
+			<SoLuong>80</SoLuong>
+			<DonViTinh>chiếc</DonViTinh>
+			<DonGia>800000</DonGia>
+		</Hang>
+	</LoaiHang>
+	<LoaiHang TenLoai="Quần áo">
+		<MaLoai>QA</MaLoai>
+		<Hang MaHang="Q1">
+			<TenHang>Áo trắng</TenHang>
+			<SoLuong>40</SoLuong>
+			<DonViTinh>chiếc</DonViTinh>
+			<DonGia>400000</DonGia>
+		</Hang>
+		<Hang MaHang="Q2">
+			<TenHang>Áo xanh</TenHang>
+			<SoLuong>50</SoLuong>
+			<DonViTinh>chiếc</DonViTinh>
+			<DonGia>500000</DonGia>
+		</Hang>
+		<Hang MaHang="Q3">
+			<TenHang>Áo vàng</TenHang>
+			<SoLuong>30</SoLuong>
+			<DonViTinh>chiếc</DonViTinh>
+			<DonGia>300000</DonGia>
+		</Hang>
+	</LoaiHang>
+</HoaDon>

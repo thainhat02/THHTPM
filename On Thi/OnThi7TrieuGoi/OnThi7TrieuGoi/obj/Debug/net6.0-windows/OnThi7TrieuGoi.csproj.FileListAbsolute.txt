@@ -1,0 +1,17 @@
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\bin\Debug\net6.0-windows\OnThi7TrieuGoi.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\bin\Debug\net6.0-windows\OnThi7TrieuGoi.deps.json
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\bin\Debug\net6.0-windows\OnThi7TrieuGoi.runtimeconfig.json
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\bin\Debug\net6.0-windows\OnThi7TrieuGoi.dll
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\bin\Debug\net6.0-windows\OnThi7TrieuGoi.pdb
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\OnThi7TrieuGoi.csproj.AssemblyReference.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\OnThi7TrieuGoi.Form1.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\OnThi7TrieuGoi.csproj.GenerateResource.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\OnThi7TrieuGoi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\OnThi7TrieuGoi.AssemblyInfoInputs.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\OnThi7TrieuGoi.AssemblyInfo.cs
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\OnThi7TrieuGoi.csproj.CoreCompileInputs.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\OnThi7TrieuGoi.dll
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\refint\OnThi7TrieuGoi.dll
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\OnThi7TrieuGoi.pdb
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\OnThi7TrieuGoi.genruntimeconfig.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi7TrieuGoi\OnThi7TrieuGoi\obj\Debug\net6.0-windows\ref\OnThi7TrieuGoi.dll

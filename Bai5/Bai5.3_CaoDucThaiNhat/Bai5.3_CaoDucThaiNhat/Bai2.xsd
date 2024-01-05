@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bai2"
+    targetNamespace="http://tempuri.org/Bai2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Bai2.xsd"
+    xmlns:mstns="http://tempuri.org/Bai2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="DS">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="KetQua" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MaSV" type="xs:string"></xs:element>
+							<xs:element name ="MaMH" type="xs:string"></xs:element>
+							<xs:element name="DiemThi">
+								<xs:simpleType>
+									<xs:restriction base="xs:float">
+										<xs:maxInclusive value="10"></xs:maxInclusive>
+										<xs:minInclusive value="0"></xs:minInclusive>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="HoaDonHang.xslt"?>
+<DS>
+	<Khoa>
+		<TenKhoa>Ngoại</TenKhoa>
+		<TenTK>Cao Đức Nhật</TenTK>
+		<Phong>
+			<BenhNhan MaBN="BN01">
+				<TenBN>Cao Đức Thái</TenBN>
+				<DiaChi>Hải Phòng</DiaChi>
+				<SDT>0912345678</SDT>
+				<NgayNhap>2023-09-26</NgayNhap>
+				<SoNgay>5</SoNgay>
+			</BenhNhan>
+			<BenhNhan MaBN="BN02">
+				<TenBN>Cao Đức Duy</TenBN>
+				<DiaChi>Hải Dương</DiaChi>
+				<SDT>0912345548</SDT>
+				<NgayNhap>2023-02-22</NgayNhap>
+				<SoNgay>30</SoNgay>
+			</BenhNhan>
+			<BenhNhan MaBN="BN03">
+				<TenBN>Cao Đức Kiên</TenBN>
+				<DiaChi>Hà Nội</DiaChi>
+				<SDT>0912343322</SDT>
+				<NgayNhap>2023-05-30</NgayNhap>
+				<SoNgay>20</SoNgay>
+			</BenhNhan>
+		</Phong>
+	</Khoa>
+</DS>

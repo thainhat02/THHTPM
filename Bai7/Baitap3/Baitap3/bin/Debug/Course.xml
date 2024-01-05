@@ -1,0 +1,22 @@
+<course>
+  <student id="S02">
+    <name>Thai</name>
+    <age>45</age>
+    <city>Ha nam</city>
+  </student>
+  <student id="S03">
+    <name>Duy</name>
+    <age>43</age>
+    <city>Ha noi</city>
+  </student>
+  <student id="S04">
+    <name>Hieu</name>
+    <age>21</age>
+    <city>Hai duong</city>
+  </student>
+  <student id="S05">
+    <name>Hieu</name>
+    <age>26</age>
+    <city>ha </city>
+  </student>
+</course>

@@ -1,0 +1,11 @@
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai12\Bai122TrieugoiAPI\Bai122TrieugoiAPI\bin\Debug\Bai122TrieugoiAPI.exe.config
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai12\Bai122TrieugoiAPI\Bai122TrieugoiAPI\bin\Debug\Bai122TrieugoiAPI.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai12\Bai122TrieugoiAPI\Bai122TrieugoiAPI\bin\Debug\Bai122TrieugoiAPI.pdb
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai12\Bai122TrieugoiAPI\Bai122TrieugoiAPI\obj\Debug\Bai122TrieugoiAPI.csproj.AssemblyReference.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai12\Bai122TrieugoiAPI\Bai122TrieugoiAPI\obj\Debug\Bai122TrieugoiAPI.csproj.SuggestedBindingRedirects.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai12\Bai122TrieugoiAPI\Bai122TrieugoiAPI\obj\Debug\Bai122TrieugoiAPI.Form1.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai12\Bai122TrieugoiAPI\Bai122TrieugoiAPI\obj\Debug\Bai122TrieugoiAPI.Properties.Resources.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai12\Bai122TrieugoiAPI\Bai122TrieugoiAPI\obj\Debug\Bai122TrieugoiAPI.csproj.GenerateResource.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai12\Bai122TrieugoiAPI\Bai122TrieugoiAPI\obj\Debug\Bai122TrieugoiAPI.csproj.CoreCompileInputs.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai12\Bai122TrieugoiAPI\Bai122TrieugoiAPI\obj\Debug\Bai122TrieugoiAPI.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai12\Bai122TrieugoiAPI\Bai122TrieugoiAPI\obj\Debug\Bai122TrieugoiAPI.pdb

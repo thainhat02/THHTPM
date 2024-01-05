@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="company"
+    targetNamespace="http://tempuri.org/company.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/company.xsd"
+    xmlns:mstns="http://tempuri.org/company.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="Gender">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="male|female"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Name">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Za-z ]{3,}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="UserID">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Za-z][A-Za-z0-9]{6,}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Phone">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{3}-\{3}-\d{4}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Salary">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:minInclusive value="1000"></xs:minInclusive>
+			<xs:maxInclusive value="2000"></xs:maxInclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Address">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Hà Nội"></xs:enumeration>
+			<xs:enumeration value="Hải Phòng"></xs:enumeration>
+			<xs:enumeration value="Quảng Ninh"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:element name="employee">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="name" type="Name"></xs:element>
+				<xs:element name="userid" type="UserID"></xs:element>
+				<xs:element name="phone" type="Phone"></xs:element>
+				<xs:element name="salary" type="Salary"></xs:element>
+				<xs:element name="address" type="Address"></xs:element>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:ID" use="required"></xs:attribute>
+			<xs:attribute name="gender" type="Gender" use="optional"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="company">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="employee" minOccurs="1" maxOccurs="50"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

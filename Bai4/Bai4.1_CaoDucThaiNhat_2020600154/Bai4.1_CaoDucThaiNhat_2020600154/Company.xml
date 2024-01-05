@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<company xmlns="http://tempuri.org/Company.xsd">
+	<employee id="S01" gender="male">
+		<name>cao nhat</name>
+		<userid>emp0215</userid>
+		<phone>012-365-9999</phone>
+		<salary>1500</salary>
+		<address>Hai phong</address>
+	</employee>
+</company>

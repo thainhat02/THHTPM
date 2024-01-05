@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HoaDon"
+    targetNamespace="http://tempuri.org/HoaDon.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/HoaDon.xsd"
+    xmlns:mstns="http://tempuri.org/HoaDon.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="HoaDon">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LoaiHang" maxOccurs="10" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MaLoai" type="xs:ID"></xs:element>
+							<xs:element name="Hang" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="TenHang" type="xs:string"></xs:element>
+										<xs:element name="SoLuong" type="xs:int"></xs:element>
+										<xs:element name="DonViTinh">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="gói"></xs:enumeration>
+													<xs:enumeration value="hộp"></xs:enumeration>
+													<xs:enumeration value="chiếc"></xs:enumeration>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="DonGia">
+											<xs:simpleType>
+												<xs:restriction base="xs:int">
+													<xs:minExclusive value="0"></xs:minExclusive>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="MaHang" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:ID">
+												<xs:maxLength value="6"></xs:maxLength>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="TenLoai" type="xs:string" use="required"></xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="MaHD" type="xs:string" use="required"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

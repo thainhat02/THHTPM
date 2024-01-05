@@ -1,0 +1,17 @@
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\Vidu1.csproj.AssemblyReference.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\Vidu1.Form1.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\Vidu1.csproj.GenerateResource.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\Vidu1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\Vidu1.AssemblyInfoInputs.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\Vidu1.AssemblyInfo.cs
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\Vidu1.csproj.CoreCompileInputs.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\bin\Debug\net6.0-windows\Vidu1.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\bin\Debug\net6.0-windows\Vidu1.deps.json
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\bin\Debug\net6.0-windows\Vidu1.runtimeconfig.json
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\bin\Debug\net6.0-windows\Vidu1.dll
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\bin\Debug\net6.0-windows\Vidu1.pdb
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\Vidu1.dll
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\refint\Vidu1.dll
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\Vidu1.pdb
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\Vidu1.genruntimeconfig.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Vidu1\Vidu1\obj\Debug\net6.0-windows\ref\Vidu1.dll

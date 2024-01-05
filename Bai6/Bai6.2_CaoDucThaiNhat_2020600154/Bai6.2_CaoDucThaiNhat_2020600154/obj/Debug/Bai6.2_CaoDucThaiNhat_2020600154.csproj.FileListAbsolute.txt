@@ -1,0 +1,7 @@
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai6\Bai6.2_CaoDucThaiNhat_2020600154\Bai6.2_CaoDucThaiNhat_2020600154\bin\Debug\Bai6.2_CaoDucThaiNhat_2020600154.exe.config
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai6\Bai6.2_CaoDucThaiNhat_2020600154\Bai6.2_CaoDucThaiNhat_2020600154\bin\Debug\Bai6.2_CaoDucThaiNhat_2020600154.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai6\Bai6.2_CaoDucThaiNhat_2020600154\Bai6.2_CaoDucThaiNhat_2020600154\bin\Debug\Bai6.2_CaoDucThaiNhat_2020600154.pdb
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai6\Bai6.2_CaoDucThaiNhat_2020600154\Bai6.2_CaoDucThaiNhat_2020600154\obj\Debug\Bai6.2_CaoDucThaiNhat_2020600154.csproj.AssemblyReference.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai6\Bai6.2_CaoDucThaiNhat_2020600154\Bai6.2_CaoDucThaiNhat_2020600154\obj\Debug\Bai6.2_CaoDucThaiNhat_2020600154.csproj.CoreCompileInputs.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai6\Bai6.2_CaoDucThaiNhat_2020600154\Bai6.2_CaoDucThaiNhat_2020600154\obj\Debug\Bai6.2_CaoDucThaiNhat_2020600154.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai6\Bai6.2_CaoDucThaiNhat_2020600154\Bai6.2_CaoDucThaiNhat_2020600154\obj\Debug\Bai6.2_CaoDucThaiNhat_2020600154.pdb

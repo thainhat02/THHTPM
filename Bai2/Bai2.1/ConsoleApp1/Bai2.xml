@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSSV>
+	<TrungTam ten="CNTT">
+		<Khoa makhoa="10">
+			<Lop tenlop="HTTT2-K10">
+					<SV>
+						<Hoten>Nguyễn Văn Bắc</Hoten>					
+						<DoAn ma="121">
+							<GVHD>Nguyễn Thanh Hùng</GVHD>
+							<NoiDung>
+								<BanVe ten="A">
+									<KhoGiay>A3</KhoGiay>
+									<SoLuong>5</SoLuong>
+								</BanVe>
+								<BanVe ten="B">
+									<KhoGiay>A4</KhoGiay>
+									<SoLuong>5</SoLuong>
+								</BanVe>
+								<BanVe ten="C">
+									<KhoGiay>A1</KhoGiay>
+									<SoLuong>1</SoLuong>
+								</BanVe>
+								<BanVe ten="D">
+									<KhoGiay>A0</KhoGiay>
+									<SoLuong>1</SoLuong>
+								</BanVe>
+							</NoiDung>
+							<PhanThuyetTrinh>
+								<NgayGiaDe>2/9/2017</NgayGiaDe>
+								<NgayHoanThanh>3/9/2017</NgayHoanThanh>
+							</PhanThuyetTrinh>
+						</DoAn>
+					</SV>
+			</Lop>
+		</Khoa>
+	</TrungTam>
+</DSSV>

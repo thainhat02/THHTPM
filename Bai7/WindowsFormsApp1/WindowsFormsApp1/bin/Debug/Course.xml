@@ -1,0 +1,12 @@
+<course>
+  <student id="s01">
+    <name>Cao nhat</name>
+    <age>80</age>
+    <city>Hai phong</city>
+  </student>
+  <student id="s02">
+    <name>Thái</name>
+    <age>18</age>
+    <city>Hải phòng</city>
+  </student>
+</course>

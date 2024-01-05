@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xml" href="BenhNhan.xslt"?>
+<BVDK>
+	<Khoa>
+		<TenKhoa>Ngoại</TenKhoa>
+		<Phong>302</Phong>
+		<BenhNhan MasoBN="BN01">
+			<HoTen>Nguyễn Tuấn Anh</HoTen>
+			<GioiTinh>Nam</GioiTinh>
+			<NgayNhapVien>2017-01-01</NgayNhapVien>
+			<NgayDieuTri>2</NgayDieuTri>
+		</BenhNhan>
+		<BenhNhan MasoBN="BN02">
+			<HoTen>Nguyễn Tuấn Hưng</HoTen>
+			<GioiTinh>Nam</GioiTinh>
+			<NgayNhapVien>2018-06-11</NgayNhapVien>
+			<NgayDieuTri>10</NgayDieuTri>
+		</BenhNhan>
+	</Khoa>
+	<Khoa>
+		<TenKhoa>Nội</TenKhoa>
+		<Phong>206</Phong>
+		<BenhNhan MasoBN="BN03">
+			<HoTen>Nguyễn Văn Thắng</HoTen>
+			<GioiTinh>Nam</GioiTinh>
+			<NgayNhapVien>2022-03-21</NgayNhapVien>
+			<NgayDieuTri>4</NgayDieuTri>
+		</BenhNhan>
+		<BenhNhan MasoBN="BN04">
+			<HoTen>Nguyễn Thành Nam</HoTen>
+			<GioiTinh>Nam</GioiTinh>
+			<NgayNhapVien>2013-07-21</NgayNhapVien>
+			<NgayDieuTri>15</NgayDieuTri>
+		</BenhNhan>
+	</Khoa>
+</BVDK>

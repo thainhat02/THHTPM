@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<thuvien>
+  <sach masach="s01">
+    <tensach>Lập trình Windows</tensach>
+    <sotrang>200</sotrang>
+    <tacgia hoten="Nguyen Lan Anh">
+      <diachi>Ha noi</diachi>
+    </tacgia>
+  </sach>
+  <sach masach="s02">
+    <tensach>a</tensach>
+    <sotrang>4</sotrang>
+    <tacgia hoten="a">
+      <diachi>a</diachi>
+    </tacgia>
+  </sach>
+  <sach masach="s03">
+    <tensach>b</tensach>
+    <sotrang>4</sotrang>
+    <tacgia hoten="a">
+      <diachi>g</diachi>
+    </tacgia>
+  </sach>
+  <sach masach="s04">
+    <tensach>t</tensach>
+    <sotrang>3</sotrang>
+    <tacgia hoten="b">
+      <diachi>f</diachi>
+    </tacgia>
+  </sach>
+</thuvien>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SinhVien"
+    targetNamespace="http://tempuri.org/SinhVien.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/SinhVien.xsd"
+    xmlns:mstns="http://tempuri.org/SinhVien.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="lopType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z][0-9][0-9]"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="Lop">
+		<xs:sequence>
+			<xs:element name="SinhVien" minOccurs="1" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="MaSV" type="xs:ID"></xs:element>
+
+						
+						<xs:element name="TenSV">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="2"></xs:minLength>
+									<xs:maxLength value="50"></xs:maxLength>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+
+						<xs:element name="GioiTinh">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="Nam"></xs:enumeration>
+									<xs:enumeration value="Nữ"></xs:enumeration>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+
+						<xs:element name="NgaySinh" type="xs:date">
+							
+						</xs:element>
+						<xs:element name="MaLop" type="lopType"></xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="DS" type="Lop"></xs:element>
+</xs:schema>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bai1"
+    targetNamespace="http://tempuri.org/Bai1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Bai1.xsd"
+    xmlns:mstns="http://tempuri.org/Bai1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="DS">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="MonHoc" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="MaMH" type="xs:string">
+							</xs:element>
+							<xs:element name="TenMH">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:minLength value="2"></xs:minLength>
+										<xs:maxLength value="50"></xs:maxLength>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="SoGio">
+								<xs:simpleType>
+									<xs:restriction base="xs:int">
+										<xs:minInclusive value="4"></xs:minInclusive>
+										<xs:maxInclusive value="48"></xs:maxInclusive>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

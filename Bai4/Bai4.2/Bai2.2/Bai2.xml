@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<QLHang xmlns="http://tempuri.org/Bai2.xsd">
+	<HoaDon>
+		<MaHD>HD1</MaHD>
+		<Ngayban>2015-11-09</Ngayban>
+		<LoaiHang maloai="A" tenloai="Điện tử">
+			<Hang mahang="H1">
+				<TenHang>Ti Vi</TenHang>
+				<SoLuong>60</SoLuong>
+				<DonViTinh>Chiếc</DonViTinh>
+				<DonGia>600000</DonGia>
+			</Hang>
+		</LoaiHang>
+	</HoaDon>
+</QLHang>

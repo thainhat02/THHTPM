@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HoaDon"
+    targetNamespace="http://tempuri.org/HoaDon.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/HoaDon.xsd"
+    xmlns:mstns="http://tempuri.org/HoaDon.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="HoaDon">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="LoaiHang" minOccurs="1" maxOccurs="4">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TenLoai">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="Điện tử"></xs:enumeration>
+										<xs:enumeration value="Quần áo"></xs:enumeration>
+										<xs:enumeration value="Giầy dép"></xs:enumeration>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="Hang" minOccurs="1" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="TenHang" type="xs:string"></xs:element>
+										<xs:element name="SoLuong" type="xs:int"></xs:element>
+										<xs:element name="DonGia">
+											<xs:simpleType>
+												<xs:restriction base="xs:int">
+													<xs:minInclusive value="0"></xs:minInclusive>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="MaHang" type="xs:ID" use="required"></xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="MaLoai" use="required">
+							<xs:simpleType>
+								<xs:restriction base="xs:ID">
+									<xs:maxLength value="80"></xs:maxLength>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="MaHD" type="xs:ID" use="required"></xs:attribute>
+			<xs:attribute name="NgayBan" type="xs:date" use="required"></xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

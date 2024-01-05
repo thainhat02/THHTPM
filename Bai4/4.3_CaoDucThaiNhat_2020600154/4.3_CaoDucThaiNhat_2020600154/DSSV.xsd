@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSSV"
+    targetNamespace="http://tempuri.org/DSSV.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/DSSV.xsd"
+    xmlns:mstns="http://tempuri.org/DSSV.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:complexType name="DSSV">
+		<xs:sequence>
+						<xs:element name="Student" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="MaSV">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:pattern value="[0-9]{8}"></xs:pattern>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+
+									<xs:element name="HoTen">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="3"></xs:minLength>
+												<xs:maxLength value="50"></xs:maxLength>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+
+									<xs:element name="NgaySinh">
+										<xs:simpleType>
+											<xs:restriction base="xs:date">
+												<xs:minInclusive value="2023-01-01"></xs:minInclusive>
+												<xs:maxInclusive value ="2023-12-31"></xs:maxInclusive>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+									
+									<xs:element name="Lop">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="3"></xs:minLength>
+												<xs:maxLength value="50"></xs:maxLength>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+									<xs:element name="MonHoc" minOccurs="3" maxOccurs="5">
+										<xs:complexType>
+											<xs:sequence>
+												<xs:element name="Lan1">
+													<xs:simpleType>
+														<xs:restriction base="xs:int">
+															<xs:minInclusive value="0"></xs:minInclusive>
+															<xs:maxInclusive value="10"></xs:maxInclusive>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:element>
+												<xs:element name="Lan2">
+													<xs:simpleType>
+														<xs:restriction base="xs:int">
+															<xs:minInclusive value="0"></xs:minInclusive>
+															<xs:maxInclusive value="10"></xs:maxInclusive>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:element>
+												<xs:element name="CaNam">
+													<xs:simpleType>
+														<xs:restriction base="xs:int">
+															<xs:minInclusive value="0"></xs:minInclusive>
+															<xs:maxInclusive value="10"></xs:maxInclusive>
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:element>
+											</xs:sequence>
+											<xs:attribute name="TenMH" type="xs:string" use="required"></xs:attribute>
+										</xs:complexType>
+									</xs:element>
+									<xs:element name="HocLuc">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Trung Bình"></xs:enumeration>
+												<xs:enumeration value="Khá"></xs:enumeration>
+												<xs:enumeration value="Giỏi"></xs:enumeration>
+												<xs:enumeration value="Yếu"></xs:enumeration>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+									<xs:element name="HanhKiem">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Trung Bình"></xs:enumeration>
+												<xs:enumeration value="Khá"></xs:enumeration>
+												<xs:enumeration value="Giỏi"></xs:enumeration>
+												<xs:enumeration value="Yếu"></xs:enumeration>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+									<xs:element name="GVCN">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:pattern value="Trần Mai Linh|Đặng Thu Nhung"></xs:pattern>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="DSSV" type="DSSV"></xs:element>
+</xs:schema>

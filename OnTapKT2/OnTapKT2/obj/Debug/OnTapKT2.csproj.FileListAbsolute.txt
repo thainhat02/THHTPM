@@ -1,0 +1,11 @@
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OnTapKT2\OnTapKT2\bin\Debug\OnTapKT2.exe.config
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OnTapKT2\OnTapKT2\bin\Debug\OnTapKT2.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OnTapKT2\OnTapKT2\bin\Debug\OnTapKT2.pdb
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OnTapKT2\OnTapKT2\obj\Debug\OnTapKT2.csproj.AssemblyReference.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OnTapKT2\OnTapKT2\obj\Debug\OnTapKT2.csproj.SuggestedBindingRedirects.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OnTapKT2\OnTapKT2\obj\Debug\OnTapKT2.Form1.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OnTapKT2\OnTapKT2\obj\Debug\OnTapKT2.Properties.Resources.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OnTapKT2\OnTapKT2\obj\Debug\OnTapKT2.csproj.GenerateResource.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OnTapKT2\OnTapKT2\obj\Debug\OnTapKT2.csproj.CoreCompileInputs.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OnTapKT2\OnTapKT2\obj\Debug\OnTapKT2.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OnTapKT2\OnTapKT2\obj\Debug\OnTapKT2.pdb

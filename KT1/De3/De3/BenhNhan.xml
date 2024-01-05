@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="BenhNhan.xslt"?>
+<DS TenBV="Bạch Mai">
+	<Khoa MaKhoa="A01">
+		<TenKhoa>Thần kinh</TenKhoa>
+		<BenhNhan>
+			<MaSo>bn001</MaSo>
+			<HoTen>Lê thu lan</HoTen>
+			<NgaySinh>1988-12-21</NgaySinh>
+			<GioiTinh>Nữ</GioiTinh>
+			<SoNgay>23</SoNgay>
+		</BenhNhan>
+		<BenhNhan>
+			<MaSo>bn002</MaSo>
+			<HoTen>Lê thanh ngân</HoTen>
+			<NgaySinh>1998-02-21</NgaySinh>
+			<GioiTinh>Nữ</GioiTinh>
+			<SoNgay>32</SoNgay>
+		</BenhNhan>
+		<BenhNhan>
+			<MaSo>bn003</MaSo>
+			<HoTen>Lê thu trang</HoTen>
+			<NgaySinh>2002-12-03</NgaySinh>
+			<GioiTinh>Nữ</GioiTinh>
+			<SoNgay>13</SoNgay>
+		</BenhNhan>
+	</Khoa>
+	<Khoa MaKhoa="A02">
+		<TenKhoa>Ngoại</TenKhoa>
+		<BenhNhan>
+			<MaSo>bn004</MaSo>
+			<HoTen>Cao văn dương</HoTen>
+			<NgaySinh>1988-11-05</NgaySinh>
+			<GioiTinh>Nam</GioiTinh>
+			<SoNgay>25</SoNgay>
+		</BenhNhan>
+		<BenhNhan>
+			<MaSo>bn005</MaSo>
+			<HoTen>Cao khánh thọ</HoTen>
+			<NgaySinh>1973-05-30</NgaySinh>
+			<GioiTinh>Nam</GioiTinh>
+			<SoNgay>06</SoNgay>
+		</BenhNhan>
+		<BenhNhan>
+			<MaSo>bn006</MaSo>
+			<HoTen>Lê thúy thu</HoTen>
+			<NgaySinh>2002-09-05</NgaySinh>
+			<GioiTinh>Nữ</GioiTinh>
+			<SoNgay>03</SoNgay>
+		</BenhNhan>
+	</Khoa>
+</DS>

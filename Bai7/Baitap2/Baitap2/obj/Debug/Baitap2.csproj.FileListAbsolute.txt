@@ -1,0 +1,11 @@
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Baitap2\Baitap2\bin\Debug\Baitap2.exe.config
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Baitap2\Baitap2\bin\Debug\Baitap2.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Baitap2\Baitap2\bin\Debug\Baitap2.pdb
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Baitap2\Baitap2\obj\Debug\Baitap2.csproj.AssemblyReference.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Baitap2\Baitap2\obj\Debug\Baitap2.csproj.SuggestedBindingRedirects.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Baitap2\Baitap2\obj\Debug\Baitap2.Form1.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Baitap2\Baitap2\obj\Debug\Baitap2.Properties.Resources.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Baitap2\Baitap2\obj\Debug\Baitap2.csproj.GenerateResource.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Baitap2\Baitap2\obj\Debug\Baitap2.csproj.CoreCompileInputs.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Baitap2\Baitap2\obj\Debug\Baitap2.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Baitap2\Baitap2\obj\Debug\Baitap2.pdb

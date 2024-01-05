@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33920.266
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai5.2_CaoDucThaiNhat_2020600154", "Bai5.2_CaoDucThaiNhat_2020600154\Bai5.2_CaoDucThaiNhat_2020600154.csproj", "{A2FAE9D0-6D5D-49FD-8A17-8EEC6CF1E1E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2FAE9D0-6D5D-49FD-8A17-8EEC6CF1E1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FAE9D0-6D5D-49FD-8A17-8EEC6CF1E1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FAE9D0-6D5D-49FD-8A17-8EEC6CF1E1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FAE9D0-6D5D-49FD-8A17-8EEC6CF1E1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE0A25B0-36C4-4506-A5B8-8F5AF74A872C}
+	EndGlobalSection
+EndGlobal

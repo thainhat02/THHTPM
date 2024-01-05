@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bai2"
+    targetNamespace="http://tempuri.org/Bai2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Bai2.xsd"
+    xmlns:mstns="http://tempuri.org/Bai2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<!--Ràng buộc Hàng-->
+	<xs:simpleType name="mahangType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z0-9]*"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="thType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50"></xs:maxLength>
+			<xs:minLength value="2"></xs:minLength>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="slType">
+		<xs:restriction base="xs:integer">
+			<xs:minExclusive value="1"></xs:minExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="dvtType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Gói"></xs:enumeration>
+			<xs:enumeration value="Hộp"></xs:enumeration>
+			<xs:enumeration value="Chiếc"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="dgType">
+		<xs:restriction base="xs:integer">
+			<xs:minExclusive value="1"></xs:minExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!--Ràng buộc hóa đơn-->
+	<xs:simpleType name="mahdType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z0-9]*"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="nbType">
+		<xs:restriction base="xs:date">
+			<xs:enumeration value="2015-11-09"></xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!--Ràng buộc Loại hàng-->
+	<xs:simpleType name="maloaiType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z0-9]*"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="tenloaiType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50"></xs:maxLength>
+			<xs:minLength value="2"></xs:minLength>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!--ComplexType hàng-->
+	<xs:complexType name="hType">
+		<xs:sequence>
+			<xs:element name="TenHang" type="thType"></xs:element>
+			<xs:element name="SoLuong" type="slType"></xs:element>
+			<xs:element name="DonViTinh" type="dvtType"></xs:element>
+			<xs:element name="DonGia" type="dgType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="mahang" type="mahangType" use="required"></xs:attribute>
+	</xs:complexType>
+	<!--<xs:complexType name="HangType">
+		<xs:sequence>
+			<xs:element name="Hang" type="hdType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>-->
+
+	<!--ComplexType Loại hàng-->
+	<xs:complexType name="lhType">
+		<xs:sequence>
+			<xs:element name="Hang" type="hType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="maloai" type="maloaiType" use="required"></xs:attribute>
+		<xs:attribute name="tenloai" type="tenloaiType" use="required"></xs:attribute>
+	</xs:complexType>
+	<!--<xs:complexType name="LoaiHangType">
+		<xs:sequence>
+			<xs:element name="LoaiHang" type="lhType" minOccurs="0" maxOccurs="10"></xs:element>
+		</xs:sequence>
+	</xs:complexType>-->
+	
+	<!--ComplexType hóa đơn-->
+	<xs:complexType name="hdType">
+		<xs:sequence>
+			<xs:element name="MaHD" type="mahdType"></xs:element>
+			<xs:element name="Ngayban" type="nbType"></xs:element>
+			<xs:element name="LoaiHang" type="lhType" maxOccurs="10"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HoaDonType">
+		<xs:sequence>
+			<xs:element name="HoaDon" type="hdType"  maxOccurs="4"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="QLHang" type="HoaDonType"></xs:element>
+</xs:schema>

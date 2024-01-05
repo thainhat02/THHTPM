@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HoaDonHang"
+    targetNamespace="http://tempuri.org/HoaDonHang.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/HoaDonHang.xsd"
+    xmlns:mstns="http://tempuri.org/HoaDonHang.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<!--Ràng buộc bệnh nhân-->
+	<!--họ tện-->
+	<xs:simpleType name="htType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="50"></xs:maxLength>
+			<xs:minLength value="2"></xs:minLength>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!--mã hồ sơ bênh nhân-->
+	<xs:simpleType name="mahsType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z0-9]*"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!--Địa chỉ-->
+	<xs:simpleType name="dcType">
+		<xs:restriction  base="xs:string">
+			<xs:maxLength value="100"></xs:maxLength>
+			<xs:minLength value="3"></xs:minLength>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!--Số điện thoại-->
+	<xs:simpleType name="sdtType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-9]{10}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!--Ngày nhập viện-->
+	<xs:simpleType name="ngaynhapType">
+		<xs:restriction base="xs:date">
+			<xs:maxExclusive value="2023-12-31"></xs:maxExclusive>
+			<xs:minExclusive value="2023-01-01"></xs:minExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!--Số ngày nằm viện-->
+	<xs:simpleType name="songayType">
+		<xs:restriction base="xs:int">
+			<xs:maxExclusive value="360"></xs:maxExclusive>
+			<xs:minExclusive value="1"></xs:minExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!--Ràng buộc khoa-->
+	<!--Tên khoa-->
+	<xs:simpleType name="tenkhoaType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="100"></xs:maxLength>
+			<xs:minLength value="2"></xs:minLength>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!--Tên trưởng khoa-->
+	<xs:simpleType name="tentkType">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="100"></xs:maxLength>
+			<xs:minLength value="2"></xs:minLength>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<!--complex bênh nhân-->
+	<xs:complexType name="bnType">
+		<xs:sequence>
+			<xs:element name="TenBN" type="htType"></xs:element>
+			<xs:element name="DiaChi" type="dcType"></xs:element>
+			<xs:element name="SDT" type="sdtType"></xs:element>
+			<xs:element name="NgayNhap" type="ngaynhapType"></xs:element>
+			<xs:element name="SoNgay" type="songayType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="MaBN" type="mahsType" use="required"></xs:attribute>
+	</xs:complexType>
+
+	<xs:complexType name="phongType">
+		<xs:sequence>
+			<xs:element name="BenhNhan" type="bnType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!--complex khoa điều trị-->
+	<xs:complexType name="khoaType">
+		<xs:sequence>
+			<xs:element name="TenKhoa" type="tenkhoaType"></xs:element>
+			<xs:element name="TenTK" type="tentkType"></xs:element>
+			<xs:element name="Phong" type="phongType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="KhoaType">
+		<xs:sequence>
+			<xs:element name="Khoa" type="khoaType" maxOccurs="unbounded"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="DS" type="KhoaType"></xs:element>
+</xs:schema>

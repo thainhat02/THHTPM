@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<thuvien>
+  <sach masach="s03">
+    <tensach>c</tensach>
+    <sotrang>4</sotrang>
+    <tacgia hoten="c">
+      <diachi>c</diachi>
+    </tacgia>
+  </sach>
+  <sach masach="s02">
+    <tensach>b</tensach>
+    <sotrang>4</sotrang>
+    <tacgia hoten="b">
+      <diachi>b</diachi>
+    </tacgia>
+  </sach>
+  <sach masach="s04">
+    <tensach>a</tensach>
+    <sotrang>3</sotrang>
+    <tacgia hoten="b">
+      <diachi>s</diachi>
+    </tacgia>
+  </sach>
+</thuvien>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnThi13", "OnThi13\OnThi13.csproj", "{7C7B279D-C69B-4B19-8D27-B8F03BC34BC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnThi13TrieuGoi", "OnThi13TrieuGoi\OnThi13TrieuGoi.csproj", "{7FCB70C8-7611-4A2B-B197-CB6285697F90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C7B279D-C69B-4B19-8D27-B8F03BC34BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C7B279D-C69B-4B19-8D27-B8F03BC34BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C7B279D-C69B-4B19-8D27-B8F03BC34BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C7B279D-C69B-4B19-8D27-B8F03BC34BC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FCB70C8-7611-4A2B-B197-CB6285697F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCB70C8-7611-4A2B-B197-CB6285697F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCB70C8-7611-4A2B-B197-CB6285697F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCB70C8-7611-4A2B-B197-CB6285697F90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20422F81-A2B5-4710-85A9-467EA1B66C87}
+	EndGlobalSection
+EndGlobal

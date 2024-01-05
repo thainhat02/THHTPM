@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xml" href="Bai2.xslt"?>
+<DS>
+	<KetQua>
+		<MaSV>SV01</MaSV>
+		<MaMH>THDC</MaMH>
+		<DiemThi>8</DiemThi>
+	</KetQua>
+	<KetQua>
+		<MaSV>SV01</MaSV>
+		<MaMH>THVP</MaMH>
+		<DiemThi>9.5</DiemThi>
+	</KetQua>
+	<KetQua>
+		<MaSV>SV02</MaSV>
+		<MaMH>THDC</MaMH>
+		<DiemThi>5.5</DiemThi>
+	</KetQua>
+	<KetQua>
+		<MaSV>SV02</MaSV>
+		<MaMH>THVP</MaMH>
+		<DiemThi>10</DiemThi>
+	</KetQua>
+	<KetQua>
+		<MaSV>SV03</MaSV>
+		<MaMH>THDC</MaMH>
+		<DiemThi>9</DiemThi>
+	</KetQua>
+	<KetQua>
+		<MaSV>SV03</MaSV>
+		<MaMH>THVP</MaMH>
+		<DiemThi>4.5</DiemThi>
+	</KetQua>
+</DS>

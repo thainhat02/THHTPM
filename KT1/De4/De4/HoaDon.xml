@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HoaDon MaHD="HD1" NgayBan="2015-11-09" xmlns="http://tempuri.org/HoaDon.xsd">
+	<LoaiHang MaLoai="DT">
+		<TenLoai>Điện tử</TenLoai>
+		<Hang MaHang="H1">
+			<TenHang>Ti vi</TenHang>
+			<SoLuong>120</SoLuong>
+			<DonGia>500000</DonGia>
+		</Hang>
+		<Hang MaHang="H2">
+			<TenHang>Ti vi</TenHang>
+			<SoLuong>60</SoLuong>
+			<DonGia>600000</DonGia>
+		</Hang>
+		<Hang MaHang="H3">
+			<TenHang>Ti vi</TenHang>
+			<SoLuong>210</SoLuong>
+			<DonGia>300000</DonGia>
+		</Hang>
+	</LoaiHang>
+	<LoaiHang MaLoai="TD">
+		<TenLoai>Điện tử</TenLoai>
+		<Hang MaHang="H4">
+			<TenHang>Ti vi</TenHang>
+			<SoLuong>130</SoLuong>
+			<DonGia>550000</DonGia>
+		</Hang>
+		<Hang MaHang="H5">
+			<TenHang>Ti vi</TenHang>
+			<SoLuong>43</SoLuong>
+			<DonGia>100000</DonGia>
+		</Hang>
+		<Hang MaHang="H6">
+			<TenHang>Ti vi</TenHang>
+			<SoLuong>220</SoLuong>
+			<DonGia>900000</DonGia>
+		</Hang>
+	</LoaiHang>
+</HoaDon>

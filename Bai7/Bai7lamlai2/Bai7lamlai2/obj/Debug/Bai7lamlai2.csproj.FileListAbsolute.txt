@@ -1,0 +1,11 @@
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Bai7lamlai2\Bai7lamlai2\bin\Debug\Bai7lamlai2.exe.config
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Bai7lamlai2\Bai7lamlai2\bin\Debug\Bai7lamlai2.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Bai7lamlai2\Bai7lamlai2\bin\Debug\Bai7lamlai2.pdb
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Bai7lamlai2\Bai7lamlai2\obj\Debug\Bai7lamlai2.csproj.AssemblyReference.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Bai7lamlai2\Bai7lamlai2\obj\Debug\Bai7lamlai2.csproj.SuggestedBindingRedirects.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Bai7lamlai2\Bai7lamlai2\obj\Debug\Bai7lamlai2.Form1.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Bai7lamlai2\Bai7lamlai2\obj\Debug\Bai7lamlai2.Properties.Resources.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Bai7lamlai2\Bai7lamlai2\obj\Debug\Bai7lamlai2.csproj.GenerateResource.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Bai7lamlai2\Bai7lamlai2\obj\Debug\Bai7lamlai2.csproj.CoreCompileInputs.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Bai7lamlai2\Bai7lamlai2\obj\Debug\Bai7lamlai2.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\Bai7\Bai7lamlai2\Bai7lamlai2\obj\Debug\Bai7lamlai2.pdb

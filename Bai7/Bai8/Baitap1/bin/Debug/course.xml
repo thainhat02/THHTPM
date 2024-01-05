@@ -1,0 +1,12 @@
+<course>
+  <student id="S03">
+    <name>Hieu</name>
+    <age>23</age>
+    <city>Hung yen</city>
+  </student>
+  <student id="S05">
+    <name>Duy</name>
+    <age>59</age>
+    <city>Khanh hoa</city>
+  </student>
+</course>

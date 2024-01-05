@@ -1,0 +1,11 @@
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OntapTX21\OntapTX21\bin\Debug\OntapTX21.exe.config
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OntapTX21\OntapTX21\bin\Debug\OntapTX21.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OntapTX21\OntapTX21\bin\Debug\OntapTX21.pdb
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OntapTX21\OntapTX21\obj\Debug\OntapTX21.csproj.AssemblyReference.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OntapTX21\OntapTX21\obj\Debug\OntapTX21.csproj.SuggestedBindingRedirects.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OntapTX21\OntapTX21\obj\Debug\OntapTX21.Form1.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OntapTX21\OntapTX21\obj\Debug\OntapTX21.Properties.Resources.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OntapTX21\OntapTX21\obj\Debug\OntapTX21.csproj.GenerateResource.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OntapTX21\OntapTX21\obj\Debug\OntapTX21.csproj.CoreCompileInputs.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OntapTX21\OntapTX21\obj\Debug\OntapTX21.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\OntapTX21\OntapTX21\obj\Debug\OntapTX21.pdb

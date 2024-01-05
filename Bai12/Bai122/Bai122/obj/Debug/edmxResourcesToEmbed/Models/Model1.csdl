@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLLuongModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DonVi">
+    <Key>
+      <PropertyRef Name="MaDonVi" />
+    </Key>
+    <Property Name="MaDonVi" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="TenDonVi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="NhanVien">
+    <Key>
+      <PropertyRef Name="Ma" />
+    </Key>
+    <Property Name="Ma" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="HoTen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="GioiTinh" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="HsLuong" Type="Int32" />
+    <Property Name="MaDonVi" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="NhanVien1" Relationship="Self.FK_DonVi_MaDonVi" FromRole="NhanVien" ToRole="NhanVien1" />
+    <NavigationProperty Name="NhanVien2" Relationship="Self.FK_DonVi_MaDonVi" FromRole="NhanVien1" ToRole="NhanVien" />
+  </EntityType>
+  <Association Name="FK_DonVi_MaDonVi">
+    <End Role="NhanVien" Type="Self.NhanVien" Multiplicity="1" />
+    <End Role="NhanVien1" Type="Self.NhanVien" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="NhanVien">
+        <PropertyRef Name="Ma" />
+      </Principal>
+      <Dependent Role="NhanVien1">
+        <PropertyRef Name="Ma" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLLuongEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DonVis" EntityType="Self.DonVi" />
+    <EntitySet Name="NhanViens" EntityType="Self.NhanVien" />
+    <AssociationSet Name="FK_DonVi_MaDonVi" Association="Self.FK_DonVi_MaDonVi">
+      <End Role="NhanVien" EntitySet="NhanViens" />
+      <End Role="NhanVien1" EntitySet="NhanViens" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

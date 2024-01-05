@@ -1,0 +1,37 @@
+<nganhang>
+  <taikhoan>
+    <sotaikhoan>S012</sotaikhoan>
+    <tentaikhoan>nhat</tentaikhoan>
+    <diachi>Hải phòng</diachi>
+    <dienthoai>0254656565</dienthoai>
+    <sotien>1000000</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>S04</sotaikhoan>
+    <tentaikhoan>Hậu</tentaikhoan>
+    <diachi>Hà nam</diachi>
+    <dienthoai>02131321321</dienthoai>
+    <sotien>60000000</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>S05</sotaikhoan>
+    <tentaikhoan>Phúc</tentaikhoan>
+    <diachi>Lâm đồng</diachi>
+    <dienthoai>0213213213</dienthoai>
+    <sotien>50000</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>S06</sotaikhoan>
+    <tentaikhoan>nhat thai</tentaikhoan>
+    <diachi>àasfaf</diachi>
+    <dienthoai>46546</dienthoai>
+    <sotien>656464</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>S07</sotaikhoan>
+    <tentaikhoan>nhat</tentaikhoan>
+    <diachi>njnjkn</diachi>
+    <dienthoai>464654</dienthoai>
+    <sotien>879879</sotien>
+  </taikhoan>
+</nganhang>

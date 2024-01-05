@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DSSV>
+	<namhoc nam="2008">
+	<Lop malop="ktpm5-k9" gvcn="Trần Mai Linh">
+		<SV>
+			<Hoten>Nguyễn Việt Đức</Hoten>
+			<NgaySinh>5/3/1997</NgaySinh>
+		
+			<MonHoc TenMon ="Toan" stt ="1">
+				<Lan1>5</Lan1>
+				<Lan2>6</Lan2>
+				<Canam>8</Canam>
+			</MonHoc>
+			<MonHoc TenMon ="Văn">
+				<Lan1>7</Lan1>
+				<Lan2>8</Lan2>
+				<Canam>4</Canam>
+			</MonHoc>
+			<MonHoc TenMon ="Ngoại Ngữ">
+				<Lan1>3</Lan1>
+				<Lan2>5</Lan2>
+				<Canam>5</Canam>
+			</MonHoc>
+			<MonHoc TenMon ="Sử">
+				<Lan1>2</Lan1>
+				<Lan2>5</Lan2>
+				<Canam>3</Canam>
+			</MonHoc>
+			<MonHoc TenMon ="Sinh">
+				<Lan1>8</Lan1>
+				<Lan2>8</Lan2>
+				<Canam>4</Canam>
+			</MonHoc>
+			<MonHoc TenMon ="Tổng Kết">
+				<Lan1>6</Lan1>
+				<Lan2>7</Lan2>
+				<Canam>7</Canam>
+			</MonHoc>
+		
+			<HocLuc>Trung Bình</HocLuc>
+			<HanhKiem>Khá</HanhKiem>
+		</SV>
+	</Lop>
+	</namhoc>
+</DSSV>

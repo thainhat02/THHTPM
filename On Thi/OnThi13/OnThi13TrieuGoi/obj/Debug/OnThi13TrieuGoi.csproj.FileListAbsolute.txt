@@ -1,0 +1,17 @@
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\bin\Debug\OnThi13TrieuGoi.exe.config
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\bin\Debug\OnThi13TrieuGoi.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\bin\Debug\OnThi13TrieuGoi.pdb
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\bin\Debug\Newtonsoft.Json.dll
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\bin\Debug\System.Net.Http.Extensions.dll
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\bin\Debug\System.Net.Http.Formatting.dll
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\bin\Debug\System.Net.Http.Primitives.dll
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\bin\Debug\Newtonsoft.Json.xml
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\obj\Debug\OnThi13TrieuGoi.csproj.AssemblyReference.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\obj\Debug\OnThi13TrieuGoi.csproj.SuggestedBindingRedirects.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\obj\Debug\OnThi13TrieuGoi.Form1.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\obj\Debug\OnThi13TrieuGoi.Properties.Resources.resources
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\obj\Debug\OnThi13TrieuGoi.csproj.GenerateResource.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\obj\Debug\OnThi13TrieuGoi.csproj.CoreCompileInputs.cache
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\obj\Debug\OnThi13TrieuGoi.csproj.CopyComplete
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\obj\Debug\OnThi13TrieuGoi.exe
+D:\Kỳ 7\Tích hợp hệ thống phần mềm\On Thi\OnThi13\OnThi13TrieuGoi\obj\Debug\OnThi13TrieuGoi.pdb
